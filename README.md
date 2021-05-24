@@ -26,10 +26,10 @@ t = BallTree.BallTree(kd, numDimensions)
 ### Printing the Tree
 `t.pTree()  `
 `ROOT:  ((4, 5, 6), 'B')
-<space><space><space><space>    LEFT:  ((1, 1, 5), 'E')
-<space><space><space><space><space><space><space><space>        LEFT:  ((1, 4, 5), 'C')
-<space><space><space><space><space><space><space><space><space><space><space><space>            LEFT:  ((1, 2, 3), 'A')
-<space><space><space><space><space><space><space><space>        RIGHT:  ((4, 2, 2), 'D')`
+&nbsp;&nbsp;&nbsp;&nbsp;    LEFT:  ((1, 1, 5), 'E')
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       LEFT:  ((1, 4, 5), 'C')
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            LEFT:  ((1, 2, 3), 'A')
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        RIGHT:  ((4, 2, 2), 'D')`
 
 ### Find: 
 `pt = (4,5,6)  
