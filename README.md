@@ -24,15 +24,15 @@ t = BallTree.BallTree(kd, numDimensions)
 `
 
 ### Printing the Tree
-`t.pTree()  `
+`t.pTree()\`
 `ROOT:  ((4, 5, 6), 'B')
-&nbsp;&nbsp;&nbsp;&nbsp;    LEFT:  ((1, 1, 5), 'E')
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       LEFT:  ((1, 4, 5), 'C')
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            LEFT:  ((1, 2, 3), 'A')
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        RIGHT:  ((4, 2, 2), 'D')`
+    LEFT:  ((1, 1, 5), 'E')
+       LEFT:  ((1, 4, 5), 'C')
+            LEFT:  ((1, 2, 3), 'A')
+        RIGHT:  ((4, 2, 2), 'D')`
 
 ### Find: 
-`pt = (4,5,6)  
+`pt = (4,5,6)\  
 t.find(pt)  `
 
 `B`
