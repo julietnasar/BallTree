@@ -15,7 +15,7 @@ In this implementation, construction of the Ball Tree takes place when the tree 
 The tree is constructed by going through each key data pair, choosing a pivot point, splitting the points on the pivot, and recursively constructing each side until all points are in the tree. 
 
 ## Implementation Examples
-- Construction/Initializing Tree
+### Construction/Initializing Tree
 
 `
 kd = [((1,2,3), "A"), ((4,5,6), "B"), ((1,4,5), "C"), ((4,2,2), "D"), ((1,1,5), "E")]
@@ -23,7 +23,7 @@ numDimensions = 3
 t = BallTree.BallTree(kd, numDimensions)
 `
 
-- Printing the Tree above
+### Printing the Tree
 `t.pTree()`
 `ROOT:  ((4, 5, 6), 'B')
     LEFT:  ((1, 1, 5), 'E')
@@ -31,13 +31,13 @@ t = BallTree.BallTree(kd, numDimensions)
             LEFT:  ((1, 2, 3), 'A')
         RIGHT:  ((4, 2, 2), 'D')`
 
-- Find: 
+### Find: 
 `pt = (4,5,6)
 t.find(pt)`
 
 `B`
 
-- KnnFind: 
+### KnnFind: 
 `
 pt = (1,2,3)
 N = 2
