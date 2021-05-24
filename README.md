@@ -24,7 +24,7 @@ t = BallTree.BallTree(kd, numDimensions)
 `
 
 ### Printing the Tree
-`t.pTree()\`
+`t.pTree()`
 `ROOT:  ((4, 5, 6), 'B')
     LEFT:  ((1, 1, 5), 'E')
        LEFT:  ((1, 4, 5), 'C')
@@ -32,7 +32,7 @@ t = BallTree.BallTree(kd, numDimensions)
         RIGHT:  ((4, 2, 2), 'D')`
 
 ### Find: 
-`pt = (4,5,6)\  
+`pt = (4,5,6)  
 t.find(pt)  `
 
 `B`
