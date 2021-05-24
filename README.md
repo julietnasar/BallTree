@@ -25,17 +25,17 @@ t = BallTree.BallTree(kd, numDimensions)
 
 - Printing the Tree above
 `t.pTree()`
-ROOT:  ((4, 5, 6), 'B')
+`ROOT:  ((4, 5, 6), 'B')
     LEFT:  ((1, 1, 5), 'E')
         LEFT:  ((1, 4, 5), 'C')
             LEFT:  ((1, 2, 3), 'A')
-        RIGHT:  ((4, 2, 2), 'D')
+        RIGHT:  ((4, 2, 2), 'D')`
 
 - Find: 
 `pt = (4,5,6)
 t.find(pt)`
 
-B
+`B`
 
 - KnnFind: 
 `
@@ -43,4 +43,4 @@ pt = (1,2,3)
 N = 2
 t.knnFind(pt, N)`
 
-[(2.8284271247461903, (1, 4, 5), 'C'), (2.23606797749979, (1, 1, 5), 'E')]
+`[(2.8284271247461903, (1, 4, 5), 'C'), (2.23606797749979, (1, 1, 5), 'E')]`
