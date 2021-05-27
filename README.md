@@ -53,3 +53,8 @@ t.knnFind(pt, N)  `
 ```
 output:
 ```[(2.8284271247461903, (1, 4, 5), 'C'), (2.23606797749979, (1, 1, 5), 'E')]```
+
+## Credits
+This project was created as a final project for the Spring 2021 class Data Structures at Yeshiva University.
+
+Yeshiva University © [Juliet Nasar]()
